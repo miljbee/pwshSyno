@@ -1,7 +1,7 @@
 # pwshSyno
 powershell module to interact with your Synology NAS via webapi
 
-'''
+```
 PS XX> Import-Module ./syno.psm1
 PS XX> $bu = 'http://mySyno:5000'
 PS XX> $cred = get-credential
@@ -28,4 +28,4 @@ PS XX> Revoke-SynoId -baseUrl $bu -sid $sid
 success
 -------
    True
-'''
+```

@@ -28,4 +28,14 @@ PS XX> Revoke-SynoId -baseUrl $bu -sid $sid
 success
 -------
    True
+
+PS XX> Get-Command *-Syno*
+
+CommandType     Name                                               Version    Source
+-----------     ----                                               -------    ------
+Function        Get-SynoResUsage                                   0.0        syno
+Function        Get-SynoSid                                        0.0        syno
+Function        Get-SynoVMMGuests                                  0.0        syno
+Function        Revoke-SynoId                                      0.0        syno
+Function        Set-SynoLedBrightness                              0.0        syno
 ```
